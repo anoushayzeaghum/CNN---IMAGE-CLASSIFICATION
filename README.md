@@ -1,7 +1,7 @@
 # CNN - IMAGE CLASSIFICATION
 This assignment embarks on leveraging Convolutional Neural Networks (CNNs) to execute an image classification pipeline for categorizing natural scene images into distinct classes. With a dataset encompassing 25,000 150x150-pixel images distributed among six categories, including Buildings, Forest, Glacier, Mountain, Sea, and Street, the task involves training on 14,000+ images, cross-validating using 3,000+ images, and testing with 7,000+ images. We preferred CNN architecture, be it custom-built with fundamental layers or employing pre-implemented models in frameworks like Keras or PyTorch. Through this we delve into the domain of modern machine learning, exploring the robustness of CNNs in deciphering complex visual data for practical image recognition and classification purposes.
 
-## Imported Following Libraries
+## IMPORTED DIFFERENT LIBRARIES
 1. **NumPy:** Used for numerical computations and array manipulations in Python.
 2. **Pandas:** Essential for data manipulation, offering data structures and operations for structured data sets.
 3. **Matplotlib:** Primarily utilized for creating visualizations like plots, charts, and graphs.
@@ -11,7 +11,7 @@ This assignment embarks on leveraging Convolutional Neural Networks (CNNs) to ex
 7. **OS:** Allows interaction with the operating system for tasks like file operations (reading/writing).
 8. **TensorFlow:** An open-source machine learning framework used for building and training neural networks.
 
-## Defing Classes of Dataset
+## DEFINING CLASSES OF DATASET
 Defined The Classes in following Categories:
 1. Buildings
 2. Forest
@@ -20,7 +20,7 @@ Defined The Classes in following Categories:
 5. Sea
 6. Street
 
-## Implication of different Functions for Image Classification
+## IMPLICATION OF DIFFERENT FUNCTIONS FOR IMAGE CLASSIFICATION
 Functions used for following purposes:
 
 - Reading Image file names
@@ -31,7 +31,7 @@ Functions used for following purposes:
 - Preparing Images for Prediction
 - Checking distribution across classes for Train and Test Set
 
-## Use of Different Models and Layers
+## USE OF DIFFERENT MODELS AND LAYERS
 The different models and layers used are:
 1. Sequential
 2. Conv2D
@@ -41,10 +41,10 @@ The different models and layers used are:
 6. Relu
 7. Softmax
  
-  # Results
-  - Calculated the Confusion Matrix
-  - Plotted Training and Validation Accuracy
-  - Plotted Training and Validation Loss
-  - Calculated the Accuracy of Training Set
-  - Calculated the Accuracy of Training Set
+# RESULTS
+- Calculated the Confusion Matrix
+- Plotted Training and Validation Accuracy
+- Plotted Training and Validation Loss
+- Calculated the Accuracy of Training Set
+- Calculated the Accuracy of Training Set
   
